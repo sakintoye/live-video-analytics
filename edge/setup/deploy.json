@@ -180,7 +180,7 @@
         },
         "roleName": {
             "type": "string",
-            "value": "[concat(parameters('namePrefix'),'-role-',uniqueString(subscription().id))]"
+            "value": "Owner"
         }
     }
 }
